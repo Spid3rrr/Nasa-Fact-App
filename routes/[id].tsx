@@ -16,6 +16,7 @@ export const handler: Handlers<Post | null> = {
 
 
 export default function getPost(props: any) {
+  if(!props.data) return <h1 class="text-7xl text-red-400 text-center mt-56">Post not found</h1>
   return <div>Hello ! this is post {props.data.id} ! <br/>
     {props.data.body}
     </div>;
