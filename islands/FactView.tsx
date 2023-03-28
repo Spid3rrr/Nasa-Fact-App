@@ -3,7 +3,7 @@ import { useEffect, useState } from "preact/hooks";
 
 const API_URL = "http://localhost:8000/api/fact";
 
-export default function Fact() {
+export default function FactView() {
   const [currFact, setFact] = useState<Fact | null>(null);
   const getNewFact = async () => {
     console.log("getting new fact");

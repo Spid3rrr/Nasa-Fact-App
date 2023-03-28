@@ -5,7 +5,7 @@
 import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/api/fact.ts";
 import * as $1 from "./routes/index.tsx";
-import * as $$0 from "./islands/Fact.tsx";
+import * as $$0 from "./islands/FactView.tsx";
 
 const manifest = {
   routes: {
@@ -13,7 +13,7 @@ const manifest = {
     "./routes/index.tsx": $1,
   },
   islands: {
-    "./islands/Fact.tsx": $$0,
+    "./islands/FactView.tsx": $$0,
   },
   baseUrl: import.meta.url,
   config,
