@@ -1,7 +1,7 @@
 import { Fact } from "../components/Fact.model.tsx";
 import { useEffect, useState } from "preact/hooks";
 
-const API_URL = "http://localhost:8000/api/fact";
+const API_URL = "/api/fact";
 
 export default function FactView() {
   const [currFact, setFact] = useState<Fact | null>(null);
