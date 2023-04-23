@@ -1,11 +1,9 @@
-# fresh project
+# Nasa Fact App
 
-### Usage
+### What's this for ?
 
-Start the project:
+This is just a sample app using the NASA API to test our deno's Fresh framework.
 
-```
-deno task start
-```
+### What does it do ?
 
-This will watch the project directory and restart as necessary.
+It simply presents facts about space randomly with visualizations. It's a great learning source if you're into space !
